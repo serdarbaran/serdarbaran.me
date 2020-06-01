@@ -1,0 +1,39 @@
+I"<div class="container">
+<div class="row justify-content-center">
+    <div class="col-md-8">        
+        <div class="row align-items-center mb-5">
+            <div class="col-md-9">
+                <h2 class="font-weight-bold">Sal <span class="small btn btn-outline-success btn-sm btn-round"><a href="">Follow</a></span></h2>
+                <p><a href="https://www.serdarbaran.github.io">https://www.serdarbaran.github.io</a></p>
+                <p class="excerpt">Hi, I am Serdar, the author of BaranNotes. I hope you like it!</p>
+            </div>
+            <div class="col-md-3 text-right">
+                <img alt="Serdar" src="//assets/images/avatar1.jpg" class="rounded-circle" height="100" width="100" />
+            </div>
+        </div>
+        <h4 class="font-weight-bold spanborder"><span>Posts by Sal</span></h4>
+            
+            
+            <div class="mb-5 d-flex justify-content-between main-loop-card">
+<div class="pr-3">
+	<h2 class="mb-1 h4 font-weight-bold">
+	<a class="text-dark" href="/first-mass-produced/">The first mass-produced book to deviate from a rectilinear format</a>
+	</h2>
+	<p class="excerpt">
+	   The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the prot...
+	</p>
+	<small class="d-block text-muted">
+		In <span class="catlist">
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#mundana-theme-jekyll">mundana-theme-jekyll</a><span class="sep">, </span>
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
+		
+		</span>
+	</small>
+	<small class="text-muted">
+		Feb 02, 2019
+	</small>
+</div>
+</div></div></div></div>
+:ET

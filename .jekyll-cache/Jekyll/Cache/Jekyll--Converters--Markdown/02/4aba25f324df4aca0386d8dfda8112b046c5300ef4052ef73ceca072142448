@@ -1,0 +1,41 @@
+I"á<div class="container">
+<div class="row justify-content-center">
+    <div class="col-md-8">        
+        <div class="row align-items-center mb-5">
+            <div class="col-md-9">
+                <h2 class="font-weight-bold">Jane <span class="small btn btn-outline-success btn-sm btn-round"><a href="">Follow</a></span></h2>
+                <p><a href=""></a></p>
+                <p class="excerpt"></p>
+            </div>
+            <div class="col-md-3 text-right">
+                <img alt="" src="/" class="rounded-circle" height="100" width="100" />
+            </div>
+        </div>
+        <h4 class="font-weight-bold spanborder"><span>Posts by Jane</span></h4>
+            
+            
+            <div class="mb-5 d-flex justify-content-between main-loop-card">
+<div class="pr-3">
+	<h2 class="mb-1 h4 font-weight-bold">
+	<a class="text-dark" href="/powerful-things-markdown-editor/">Powerful things you can do with the Markdown editor</a>
+	</h2>
+	<p class="excerpt">
+	   There are lots of powerful things you can do with the Markdown editor. If youâ€™ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about t...
+	</p>
+	<small class="d-block text-muted">
+		In <span class="catlist">
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#mundana-theme-jekyll">mundana-theme-jekyll</a><span class="sep">, </span>
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
+		
+		</span>
+	</small>
+	<small class="text-muted">
+		Feb 03, 2019
+	</small>
+</div>
+</div></div></div></div>
+:ET
