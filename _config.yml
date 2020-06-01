@@ -3,7 +3,7 @@ name: 'BaranNotes'
 description: 'BaranNotes is a personal blog for awesome people like you.'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: ''
+baseurl: '/serdarbaran.github.io'
 disqus: ''
 email: 'sbbaran@gmail.com'
 #mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -19,7 +19,7 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
+    serdar:
       name:           Serdar
       site:           https://www.serdarbaran.github.io
       avatar:         /assets/images/avatar1.jpg
@@ -43,7 +43,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: Serdar
+      author: serdar
       avatar: /assets/images/avatar1.jpg
       
   # all pages
