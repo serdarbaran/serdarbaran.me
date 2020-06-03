@@ -1,4 +1,4 @@
-I"i<div class="container">
+I"\<div class="container">
 <div class="row justify-content-center">
     <div class="col-md-8">        
         <div class="row align-items-center mb-5">
@@ -20,7 +20,7 @@
 	<a class="text-dark" href="/serdarbaran.github.io/setup-a-free-github-page-with-jekyll/">Setup a free GitHub page with Jekyll</a>
 	</h2>
 	<p class="excerpt">
-	   This is a quick tutorial for if you would like to create GitHub page and find out some tricks how to perfect it. I will be going through the steps of how I created my GitHub page.
+	   This is a quick tutorial on how to create a GitHub page and learn some tricks on how to perfect it. I will be going through the steps of how I created my GitHub page.
 	</p>
 	<small class="d-block text-muted">
 		In <span class="catlist">
