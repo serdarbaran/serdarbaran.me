@@ -1,0 +1,36 @@
+I"<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+        <h1 class="font-weight-bold title h6 text-uppercase mb-4">Categories</h1>
+            
+         
+        <h4 class="font-weight-bold spanborder text-capitalize" id="jekyll"><span>Jekyll</span></h4>
+            
+        
+        
+        
+          
+         
+            <div class="mb-5 d-flex justify-content-between main-loop-card">
+<div class="pr-3">
+	<h2 class="mb-1 h4 font-weight-bold">
+	<a class="text-dark" href="/serdarbaran.github.io/setup-a-free-github-page-with-jekyll/">Setup a free GitHub page with Jekyll</a>
+	</h2>
+	<p class="excerpt">
+	   This is a quick tutorial on how to create a GitHub page and learn some tricks on how to perfect it. I will be going through the steps of how I created my GitHub page.
+	</p>
+	<small class="d-block text-muted">
+		In <span class="catlist">
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/serdarbaran.github.io/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/serdarbaran.github.io/categories.html#tutorial">tutorial</a><span class="sep">, </span>
+		
+		</span>
+	</small>
+	<small class="text-muted">
+		Jun 02, 2020
+	</small>
+</div>
+</div></div></div></div>
+:ET

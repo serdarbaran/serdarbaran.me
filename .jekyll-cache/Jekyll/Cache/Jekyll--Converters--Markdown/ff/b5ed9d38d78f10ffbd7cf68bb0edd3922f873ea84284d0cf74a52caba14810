@@ -1,0 +1,50 @@
+I"8<div class="container">
+<div class="row justify-content-center">
+    <div class="col-md-8">        
+        <div class="row align-items-center mb-5">
+            <div class="col-md-9">
+                <h2 class="font-weight-bold">Serdar <span class="small btn btn-outline-success btn-sm btn-round"><a href="">Follow</a></span></h2>
+                <p><a href="https://www.serdarbaran.github.io">https://www.serdarbaran.github.io</a></p>
+                <p class="excerpt">Hi, I am Serdar, the author of BaranNotes. I hope you like the blog!</p>
+            </div>
+            <div class="col-md-3 text-right">
+                <img alt="Serdar" src="/serdarbaran.github.io/assets/images/avatar1.jpg" class="rounded-circle" height="100" width="100" />
+            </div>
+        </div>
+        <h4 class="font-weight-bold spanborder"><span>Posts by Serdar</span></h4>
+            
+            
+            <div class="mb-5 d-flex justify-content-between main-loop-card">
+<div class="pr-3">
+	<h2 class="mb-1 h4 font-weight-bold">
+	<a class="text-dark" href="/serdarbaran.github.io/setup-a-free-github-page-with-jekyll/">Setup a free GitHub page with Jekyll</a>
+	</h2>
+	<p class="excerpt">
+	   This is a quick tutorial on how to create a GitHub page and learn some tricks on how to perfect it. I will be going through the steps of how I created my GitHub page.
+	</p>
+	<small class="d-block text-muted">
+		In <span class="catlist">
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/serdarbaran.github.io/categories.html#jekyll">Jekyll</a><span class="sep">, </span>
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/serdarbaran.github.io/categories.html#tutorial">tutorial</a><span class="sep">, </span>
+		
+		</span>
+	</small>
+	<small class="text-muted">
+		Jun 02, 2020
+	</small>
+</div>
+
+	<div class="col-md-3 pr-0 text-right">
+	<a href="/serdarbaran.github.io/setup-a-free-github-page-with-jekyll/">
+	<img class="w-100" src="/serdarbaran.github.io/assets/images/jekyll/1.png" alt="Setup a free GitHub page with Jekyll" />
+	</a>
+	</div>
+
+</div>
+            
+    </div>
+</div>
+</div>
+:ET

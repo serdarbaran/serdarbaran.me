@@ -1,0 +1,122 @@
+I"<p>This is a quick tutorial on how to create a GitHub page and learn some tricks on how to perfect it. I will be going through the steps of how I created my GitHub page.</p>
+
+<p>There will be a time you would want to explore how to create a page for your project, blog etc. GitHub provides an easy setup solution for anyone who would to like get the website sorted and hosted for free. On top of that, the smooth integration with its own repository system enables developers to easily modify and update changes on the website.</p>
+
+<p>There are endless ways to setup a GitHub page and I would like to show you one of them. I have chosen Jekyll as a static site generator. Jekyll is simple to use with your favourite mark-up language and it uses layouts to create a static website. However it is totally up to you regarding which site generator you would like to use.</p>
+
+<p>https://pages.github.com/</p>
+
+<p><img src="{{ site.baseurl }}/assets/images/jekyll/1.png" alt="githubpages" /></p>
+
+<p><strong>Let’s get started</strong></p>
+
+<h3 id="step-1--install-ruby">Step 1 : Install Ruby</h3>
+
+<ul>
+  <li>
+    <p>Open your command prompt ( terminal for those who are mac users )</p>
+  </li>
+  <li>
+    <p>First thing you need to do is install a full Ruby. Jekyll is a Ruby program so you need to install Ruby on your machine to begin with. Head over to the install guide and follow the instructions for your operating system.</p>
+
+    <p>You can install Ruby from the following link - <a href="https://rubyinstaller.org/downloads/">rubyinstaller.org</a></p>
+
+    <p>If you would like to check the version number or whether it is properly installed, then type</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ruby - v
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="step-2--install-jekyll-and-bundler-gems">Step 2 : Install Jekyll and bundler gems.</h3>
+<ul>
+  <li>
+    <p>You can carry on using command prompt but I like to switch to Visual Studio Code and “File&gt;Open Folder” 
+ <img src="{{ site.baseurl }}/assets/images/jekyll/2.png" alt="vscode" /></p>
+  </li>
+  <li>
+    <p>Then choose the directory where you want your Github page to be stored. After that, open the terminal in VSCode. As you can see in this example my directory is <code class="language-plaintext highlighter-rouge">"C:\Users\serda&gt;"</code> 
+<img src="{{ site.baseurl }}/assets/images/jekyll/3.png" alt="vscode_terminal" /></p>
+  </li>
+  <li>
+    <p>Now install Jekyll with the following command;</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install jekyll bundler
+</code></pre></div>    </div>
+    <p><img src="{{ site.baseurl }}/assets/images/jekyll/4.png" alt="vscode_terminal_jekyll_bundler" /></p>
+  </li>
+</ul>
+
+<h3 id="step-3--create-a-new-jekyll-site">Step 3 : Create a new Jekyll site</h3>
+<ul>
+  <li>Create a new Jekyll site at ./myblog
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jekyll new yourblogname
+</code></pre></div>    </div>
+    <div class="note" style="color:orange">Note: Now I need to mention something about the repository page name criteria. It cannot be different from the owner user name. Otherwise it won’t work. The criteria is GitHubUsername.github.io</div>
+    <p><br /></p>
+
+    <p><img src="{{ site.baseurl }}/assets/images/jekyll/5.png" alt="jekyll_new_blogname" /><br />
+In this instance the page’s name is serdarbaran.github.io. As you can see above, the page is created.</p>
+  </li>
+  <li>Change into your new directory.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd myblog
+</code></pre></div>    </div>
+    <p>For example;</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>PS C:\Users\serda&gt; cd .\serdarbaran.github.io\
+PS C:\Users\serda\serdarbaran.github.io&gt; 
+</code></pre></div>    </div>
+  </li>
+  <li>You need Bundler to resolve these dependency conflicts. Use Bundler to install all the needed Ruby gems
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle update
+</code></pre></div>    </div>
+  </li>
+  <li>Build the site and make it available on a local server.
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle exec jekyll serve
+</code></pre></div>    </div>
+    <p><img src="{{ site.baseurl }}/assets/images/jekyll/6.png" alt="bundle_exec_jekyll_serve" /></p>
+
+    <p>In fact there are two commands,</p>
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">jekyll build</code> - Builds the site and outputs a static site to a directory called _site.</li>
+      <li><code class="language-plaintext highlighter-rouge">jekyll serve</code> - Does the same thing except it rebuilds any time you make a change and runs at a local web server.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Browse to http://localhost:4000 ( In this example it is http://127.0.0.1:4000/ )
+Your website should look like below</p>
+
+    <p><img src="{{ site.baseurl }}/assets/images/jekyll/7.png" alt="website_overview" /></p>
+  </li>
+</ul>
+
+<h3 id="step-4--go-live-on-github">Step 4 : Go live on GitHub</h3>
+<ul>
+  <li>
+    <p>Jump back to GitHub and create a new repository
+As I mentioned before the repository name cannot be different from the owner’s user name. Otherwise it doesn’t work.</p>
+
+    <p>I will give a name, <code class="language-plaintext highlighter-rouge">serdarbaran@github.io</code> and create the repository.
+<img src="{{ site.baseurl }}/assets/images/jekyll/8.png" alt="new_github_repository-1" />
+<img src="{{ site.baseurl }}/assets/images/jekyll/9.png" alt="new_github_repository-2" /></p>
+    <div class="note" style="color:orange">Note: If you custom domain, you can place it in the settings section you can see above.</div>
+  </li>
+  <li>
+    <p>Now go to your repository. You can either use GitHub desktop application or simply upload all the files in the directory directly into the new repository. 
+<img src="{{ site.baseurl }}/assets/images/jekyll/10.png" alt="new_github_upload" /></p>
+
+    <p>I am hoping you did not have any problem so far. Now your Github page should be live.</p>
+
+    <p><strong><em>…and you’re done!</em></strong></p>
+  </li>
+  <li>
+    <p>Fire up a browser and go to <a href="https://serdarbaran.github.io">https://serdarbaran.github.io.</a></p>
+  </li>
+</ul>
+
+<p><strong><em>Congratulation! Your page is live!</em></strong></p>
+
+<p>If desired to use a different template, you can find many free templates online. Don’t forget to check github.</p>
+
+<p>Thank you for following my tutorial. I hope you found it useful for you.</p>
+
+<p>If you like it, please don’t forget to share it.</p>
+:ET
