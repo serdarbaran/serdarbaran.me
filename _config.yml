@@ -2,11 +2,11 @@
 name: 'BaranNotes'
 description: 'BaranNotes is a personal blog for awesome people like you.'
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
+favicon: 'assets/images/favicon_io/favicon.ico'
 baseurl: '/serdarbaran.github.io'
 disqus: ''
 email: 'sbbaran@gmail.com'
-#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+#mailchimp-list: ''
 
 include: ["_pages"]
 permalink: /:title/
@@ -25,15 +25,15 @@ authors:
       avatar:         /assets/images/avatar1.jpg
       bio:            "Hi, I am Serdar, the author of BaranNotes. I hope you like the blog!"
       email:          sbbaran@gmail.com
-      #twitter:        https://twitter.com/wowthemesnet
+      #twitter:       #add twitter account info
 
     # jane:
-    #   name:           Jane
-    #   site:           https://www.wowthemes.net
+    #   name:           XX
+    #   site:           xx
     #   avatar:         /assets/images/avatar2.jpg
     #   bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
     #   email:          fakemail@gmail.com
-    #   twitter:        https://twitter.com/wowthemesnet
+    #   twitter:        xx
  
 # Defaults
 defaults:
