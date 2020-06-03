@@ -25,3 +25,5 @@ Jekyll makes adding this easy; create a HTML file in your _includes folder conta
 Within a few hours Google Analytics should pick up the change, and you’ll be capturing session times, demographics, and other useful information on visitors to your site.
 
 Thanks to Joshua Lande for his original post.
+
+Check this webpage too - https://desiredpersona.com/google-analytics-jekyll/
