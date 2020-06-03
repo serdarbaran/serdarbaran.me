@@ -6,7 +6,7 @@
 
 <p>https://pages.github.com/</p>
 
-<p><img src="/serdarbaran.github.io/assets/images/jekyll/1.png" alt="githubpages" /></p>
+<p><img src="/serdarbaran.github.io/assets/images/jekyll/1.jpg" alt="githubpages" /></p>
 
 <p><strong>Let’s get started</strong></p>
 
@@ -32,17 +32,17 @@
 <ul>
   <li>
     <p>You can carry on using command prompt but I like to switch to Visual Studio Code and “File&gt;Open Folder” 
- <img src="/serdarbaran.github.io/assets/images/jekyll/2.png" alt="vscode" /></p>
+ <img src="/serdarbaran.github.io/assets/images/jekyll/2.jpg" alt="vscode" /></p>
   </li>
   <li>
     <p>Then choose the directory where you want your Github page to be stored. After that, open the terminal in VSCode. As you can see in this example my directory is <code class="language-plaintext highlighter-rouge">"C:\Users\serda&gt;"</code> 
-<img src="/serdarbaran.github.io/assets/images/jekyll/3.png" alt="vscode_terminal" /></p>
+<img src="/serdarbaran.github.io/assets/images/jekyll/3.jpg" alt="vscode_terminal" /></p>
   </li>
   <li>
     <p>Now install Jekyll with the following command;</p>
     <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install jekyll bundler
 </code></pre></div>    </div>
-    <p><img src="/serdarbaran.github.io/assets/images/jekyll/4.png" alt="vscode_terminal_jekyll_bundler" /></p>
+    <p><img src="/serdarbaran.github.io/assets/images/jekyll/4.jpg" alt="vscode_terminal_jekyll_bundler" /></p>
   </li>
 </ul>
 
@@ -54,7 +54,7 @@
     <div class="note" style="color:orange">Note: Now I need to mention something about the repository page name criteria. It cannot be different from the owner user name. Otherwise it won’t work. The criteria is GitHubUsername.github.io</div>
     <p><br /></p>
 
-    <p><img src="/serdarbaran.github.io/assets/images/jekyll/5.png" alt="jekyll_new_blogname" /><br />
+    <p><img src="/serdarbaran.github.io/assets/images/jekyll/5.jpg" alt="jekyll_new_blogname" /><br />
 In this instance the page’s name is serdarbaran.github.io. As you can see above, the page is created.</p>
   </li>
   <li>Change into your new directory.
@@ -72,7 +72,7 @@ PS C:\Users\serda\serdarbaran.github.io&gt;
   <li>Build the site and make it available on a local server.
     <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle exec jekyll serve
 </code></pre></div>    </div>
-    <p><img src="/serdarbaran.github.io/assets/images/jekyll/6.png" alt="bundle_exec_jekyll_serve" /></p>
+    <p><img src="/serdarbaran.github.io/assets/images/jekyll/6.jpg" alt="bundle_exec_jekyll_serve" /></p>
 
     <p>In fact there are two commands,</p>
     <ul>
@@ -84,7 +84,7 @@ PS C:\Users\serda\serdarbaran.github.io&gt;
     <p>Browse to http://localhost:4000 ( In this example it is http://127.0.0.1:4000/ )
 Your website should look like below</p>
 
-    <p><img src="/serdarbaran.github.io/assets/images/jekyll/7.png" alt="website_overview" /></p>
+    <p><img src="/serdarbaran.github.io/assets/images/jekyll/7.jpg" alt="website_overview" /></p>
   </li>
 </ul>
 
@@ -95,13 +95,13 @@ Your website should look like below</p>
 As I mentioned before the repository name cannot be different from the owner’s user name. Otherwise it doesn’t work.</p>
 
     <p>I will give a name, <code class="language-plaintext highlighter-rouge">serdarbaran@github.io</code> and create the repository.
-<img src="/serdarbaran.github.io/assets/images/jekyll/8.png" alt="new_github_repository-1" />
-<img src="/serdarbaran.github.io/assets/images/jekyll/9.png" alt="new_github_repository-2" /></p>
+<img src="/serdarbaran.github.io/assets/images/jekyll/8.jpg" alt="new_github_repository-1" />
+<img src="/serdarbaran.github.io/assets/images/jekyll/9.jpg" alt="new_github_repository-2" /></p>
     <div class="note" style="color:orange">Note: If you custom domain, you can place it in the settings section you can see above.</div>
   </li>
   <li>
     <p>Now go to your repository. You can either use GitHub desktop application or simply upload all the files in the directory directly into the new repository. 
-<img src="/serdarbaran.github.io/assets/images/jekyll/10.png" alt="new_github_upload" /></p>
+<img src="/serdarbaran.github.io/assets/images/jekyll/10.jpg" alt="new_github_upload" /></p>
 
     <p>I am hoping you did not have any problem so far. Now your Github page should be live.</p>
 
