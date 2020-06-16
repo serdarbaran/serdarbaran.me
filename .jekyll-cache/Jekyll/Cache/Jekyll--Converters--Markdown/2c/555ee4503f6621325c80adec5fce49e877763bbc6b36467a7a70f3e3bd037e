@@ -1,4 +1,4 @@
-I"8<div class="container">
+I"<div class="container">
 <div class="row justify-content-center">
     <div class="col-md-8">        
         <div class="row align-items-center mb-5">
@@ -13,6 +13,36 @@
         </div>
         <h4 class="font-weight-bold spanborder"><span>Posts by Serdar</span></h4>
             
+            
+            <div class="mb-5 d-flex justify-content-between main-loop-card">
+<div class="pr-3">
+	<h2 class="mb-1 h4 font-weight-bold">
+	<a class="text-dark" href="/serdarbaran.github.io/Top_Things_to_Do_After_Installing_Kali_Linux/">Top Things to Do After Installing Kali Linux</a>
+	</h2>
+	<p class="excerpt">
+	   Kali Linux distribution is highly customizable. It, by default, probably doesn’t have everything you need to get you through day-to-day use with ease. There are just many things can b...
+	</p>
+	<small class="d-block text-muted">
+		In <span class="catlist">
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/serdarbaran.github.io/categories.html#kali">Kali</a><span class="sep">, </span>
+		
+		<a class="text-capitalize text-muted smoothscroll" href="/serdarbaran.github.io/categories.html#tutorial">tutorial</a><span class="sep">, </span>
+		
+		</span>
+	</small>
+	<small class="text-muted">
+		Jun 16, 2020
+	</small>
+</div>
+
+	<div class="col-md-3 pr-0 text-right">
+	<a href="/serdarbaran.github.io/Top_Things_to_Do_After_Installing_Kali_Linux/">
+	<img class="w-100" src="/serdarbaran.github.io/assets/images/top_things_to_do_Kali/10.jpg" alt="Top Things to Do After Installing Kali Linux" />
+	</a>
+	</div>
+
+</div>
             
             <div class="mb-5 d-flex justify-content-between main-loop-card">
 <div class="pr-3">
