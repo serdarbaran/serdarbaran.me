@@ -129,4 +129,4 @@ If I haven’t forgotten anything, those are the Top Things I prefer to do after
 
 As I mentioned at the beginning of the article, this list is ongoing, so make sure to check back! Feel free to let me know your first to do when you install Kali!
 
-[Don't forget to check my github page!](https://serdarbaran.github.io/) &#9822;
+<!--[Don't forget to check my github page!](https://serdarbaran.github.io/) &#9822;-->
