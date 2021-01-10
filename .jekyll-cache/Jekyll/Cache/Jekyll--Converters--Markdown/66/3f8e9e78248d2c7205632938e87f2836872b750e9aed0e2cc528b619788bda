@@ -1,21 +1,40 @@
-I"�"<p>Kali Linux distribution is highly customizable. It, by default, doesn’t have everything you need to get you through day-to-day use with ease. The various things that can be done to improve your interaction with the operating system depends on how comfortable you feel in using it. With a few changes in the settings and applications, you can quickly get started in using Kali like a professional white hat.</p>
+I"V(<p>There are lot of stock screener out. Many websites have been trying to atract users to create an account by offering free screeners. Cross-selling seems be modern way of business approach nowadays. For those screener have complexity to and flexibility to modified, most likely won’t come free. However would you like to create quickly your one and create an interactive graphs will help you to make a decision?</p>
 
-<h3 id="1-create-a-new-low-privileged-user">1. Create a New Low Privileged User</h3>
-<p>Creating a new low privileged user goes top on my list. Let’s get one of the most important things right in the first place. It is strongly advised to open many applications like the Chromium Browser and the Tor Browser with low privileged user. Such applications rely heavily upon low-level permissions to deliver some degree of security.</p>
+<p>In this article, I provided step-by-step how to code a screener by using python and jupiter notebook. For data source, I decided to use Yahoo finance as I believe it is still one of the best free financial information provider. Lastly I choose plotly to create interactive graphs.</p>
 
-<p>For many years, Kali was being distributed by default with root user. Recently, Kali moved to a “traditional default non-root user” model. However if you are using root user, moving to non-root user is suggested to mitigate a security risk which make the host to be compromised more difficult.</p>
+<p>Lets see it did go?</p>
 
-<p>You can add a new user by using the following command;</p>
+<h3 id="1-first-step---decide-how-to-source-the-data">1. First Step - Decide how to source the data</h3>
+<p>I get it, the are many ways to scrap data online. You can easily find an article to teach you how to get each single data from the website. Only problem is the process is long and if you are new in this, you may find it difficult not to get blacklisted if you scrap large amount of data. Therefore it is not recommendend to go down in that road. However wouldn’t want to use an easier way to get financial information from Yahoo Finance? There are few packages can be found which will make the life easier. Such as <a href="https://github.com/lukaszbanasiak/yahoo-finance">yahoo-finance</a>, <a href="https://github.com/ranaroussi/yfinance">yfinance</a>, and <a href="https://github.com/dpguthrie/yahooquery">yahooquery</a>. Among all these, in my view yahooquery is the one will bring us the success easiest with simple useage.</p>
+
+<p>First install it <code class="language-plaintext highlighter-rouge">pip install yahooquery</code></p>
+
+<p>Then it is time to creating our code</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>from yahooquery import Ticker
+from yahooquery import get_exchanges
+from yahooquery import Screener
+</code></pre></div></div>
+
+<h3 id="2-creating-dataframes">2. Creating dataframes</h3>
+<p>With yahooquery, you can analyse individual financial derivatives, but also using their cool ready screener to get informations of large amount of stocks and commodities is possible.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>s = Screener()
+s.SCREENERS # View available screeners along with description and nice name
+# or just view list of keys
+s.available_screeners
+</code></pre></div></div>
+<p>You will see so many already defined screener. Now it is your decision to pick few of them based on where you want to invest.</p>
+
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo adduser newuser
 </code></pre></div></div>
 <p>It will ask user password and some extra information before completing the process. 
 Note: By default, sudo requires that users authenticate themselves with a password. This is the user’s password, not the root password itself.<br />
-<img src="/serdarbaran.github.io/assets/images/top_things_to_do_Kali/11.png" alt="add_new_user" /></p>
+<img src="{{ site.baseurl }}/assets/images/top_things_to_do_Kali/11.jpg" alt="add_new_user" /></p>
 
 <p>You should double check if the new user is added successfully by</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ awk -F: '{ print $1}' /etc/passwd
 </code></pre></div></div>
-<p><img src="/serdarbaran.github.io/assets/images/top_things_to_do_Kali/12.png" alt="check_add_new_user" /></p>
+<p><img src="{{ site.baseurl }}/assets/images/top_things_to_do_Kali/12.jpg" alt="check_add_new_user" /></p>
 
 <h3 id="2-update-upgrade--dist-upgrade">2. Update, Upgrade, &amp; Dist-Upgrade</h3>
 <p>I assume you downloaded the latest version of Kali. But again it is worth to check you have the latest of everything and update your workstation’s dependencies.</p>
@@ -24,21 +43,21 @@ $ sudo apt-get update
 $ sudo apt-get upgrade -y 
 $ sudo apt-get dist-upgrade -y
 </code></pre></div></div>
-<p><img src="/serdarbaran.github.io/assets/images/top_things_to_do_Kali/13.png" alt="apt-get_clean" />
-<img src="/serdarbaran.github.io/assets/images/top_things_to_do_Kali/14.png" alt="apt-get_upgrade" /></p>
+<p><img src="{{ site.baseurl }}/assets/images/top_things_to_do_Kali/13.jpg" alt="apt-get_clean" />
+<img src="{{ site.baseurl }}/assets/images/top_things_to_do_Kali/14.jpg" alt="apt-get_upgrade" /></p>
 
 <h3 id="3-install-git">3. Install Git</h3>
 <p>Git is a free and open source distributed version control system and commonly used in Linux. 
 Git can be installed by using the command below;</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo apt-get install git
 </code></pre></div></div>
-<p><img src="/serdarbaran.github.io/assets/images/top_things_to_do_Kali/15.png" alt="install_git_on_kali" /></p>
+<p><img src="{{ site.baseurl }}/assets/images/top_things_to_do_Kali/15.jpg" alt="install_git_on_kali" /></p>
 
 <h3 id="4-customization-of-kali-linuxs-look">4. Customization of Kali Linux’s Look</h3>
 <p>If you would like to tweak on how your Linux’s look, I would like to recommend gnome-tweaks tool. This is a desktop customization and setting manager for Gnome desktops.</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo apt-get install gnome-tweaks-tool
 </code></pre></div></div>
-<p><img src="/serdarbaran.github.io/assets/images/top_things_to_do_Kali/21.png" alt="install_gnome-tweaks" /></p>
+<p><img src="{{ site.baseurl }}/assets/images/top_things_to_do_Kali/21.jpg" alt="install_gnome-tweaks" /></p>
 
 <h3 id="5-install-tor-browser">5. Install Tor Browser</h3>
 <p>The Tor (The Onion Router) provides anonymity and privacy to users. With Tor, you could potentially prevent third party tracing your activity back to your IP address. The traffic that passes along the Tor network is encrypted.</p>
@@ -49,10 +68,10 @@ Git can be installed by using the command below;</p>
 $ sudo apt-get install tor torbrowser-launcher 
 </code></pre></div></div>
 <p>and select Y at the prompt
-<img src="/serdarbaran.github.io/assets/images/top_things_to_do_Kali/18.png" alt="install_tor" /></p>
+<img src="{{ site.baseurl }}/assets/images/top_things_to_do_Kali/18.jpg" alt="install_tor" /></p>
 
 <p>For the first time, it will download some packages
-<img src="/serdarbaran.github.io/assets/images/top_things_to_do_Kali/19.png" alt="install_tor_2" /></p>
+<img src="{{ site.baseurl }}/assets/images/top_things_to_do_Kali/19.jpg" alt="install_tor_2" /></p>
 
 <p>⚠ Note: If you’re running Kali Linux as root, you might get an error saying you can’t run Tor as root. You should switch to less privileged user.</p>
 
@@ -62,7 +81,7 @@ $ sudo apt-get install tor torbrowser-launcher
 <p>For example ClamAV can be installed by:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo apt-get install clamav
 </code></pre></div></div>
-<p><img src="/serdarbaran.github.io/assets/images/top_things_to_do_Kali/17.png" alt="install_clamav" /></p>
+<p><img src="{{ site.baseurl }}/assets/images/top_things_to_do_Kali/17.jpg" alt="install_clamav" /></p>
 
 <h3 id="7-install-your-favourite-code-editor">7. Install your favourite code editor</h3>
 <p>Two very popular code editor comes to my mind for Linux. One of them is Atom and the other one is VS Code. Pick one of them to install. I will go with Atom.</p>
@@ -94,7 +113,7 @@ $ sudo apt-get -f install
   </li>
 </ul>
 
-<p><img src="/serdarbaran.github.io/assets/images/top_things_to_do_Kali/16.png" alt="install_atom" /></p>
+<p><img src="{{ site.baseurl }}/assets/images/top_things_to_do_Kali/16.jpg" alt="install_atom" /></p>
 
 <h3 id="8-install-terminal-multiplexer">8. Install Terminal Multiplexer</h3>
 <p>Multiplexer terminal emulator divides the window into several sub-windows to help you do many things in one window. There are many multiplexers available for free. Probably by now you’re asking : “But which one should I use?” - the answer to that is “The one that suits you best”. More or less they are all the same. It is a program that manages the terminal window and is a good tool to use in terms of information gathering.</p>
@@ -104,7 +123,7 @@ $ sudo apt-get -f install
 </code></pre></div></div>
 <p>Once the installation is completed, type <code class="language-plaintext highlighter-rouge">tilix</code> in the command window to run tilix</p>
 
-<p><img src="/serdarbaran.github.io/assets/images/top_things_to_do_Kali/20.png" alt="install_tilix" /></p>
+<p><img src="{{ site.baseurl }}/assets/images/top_things_to_do_Kali/20.jpg" alt="install_tilix" /></p>
 
 <hr />
 <p>Those are the Top Things I prefer to do after installing Kali Linux. These installed packages and settings makes my work on Kali much faster and easier. I would like to remind again that it is important you know you can be at risk when running your OS as root. It is definitely recommended to use low privileged user account for beginners. Keep my recommendations in mind and you will have created yourself an extra layer of protection.</p>
